@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumnedam.recuperaciom8uf1.Pedido">
+
+    <TextView
+        android:id="@+id/textViewProductosPromo"
+        android:layout_width="249dp"
+        android:layout_height="29dp"
+        android:text="Productes en promoció: "
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="149dp"
+        android:layout_marginTop="75dp"
+        android:text="Cervesa Montcaden: 1.50€/Unitat"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginTop="106dp"
+        android:text="Hamburguesa de la Casa: 2€/Unitat"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:text="Entrepans freds: 3.50€/Unitat"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+</android.support.constraint.ConstraintLayout>
